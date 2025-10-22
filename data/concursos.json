@@ -1,0 +1,23 @@
+{
+    "items": [
+        {
+            "id": "concurso-ufu-146-2025",
+            "title": "Edital 146/2025 - Concurso Público para Docentes",
+            "university": "UFU",
+            "location": "Uberlândia",
+            "deadline": "2025-10-09",
+            "status": "open",
+            "link": "https://www.portalselecao.ufu.br/servicos/Edital/cronograma/1701"
+        },
+        {
+            "id": "concurso-ufg-24-2025",
+            "title": "EECA-ESCOLA DE ENGENHARIA CIVIL E AMBIENTAL",
+            "university": "UFG",
+            "location": "Goiânia",
+            "deadline": "2025-10-15",
+            "status": "closed",
+            "link": "https://sistemas.ufg.br/CONCURSOS_WEB/informacoes/concurso/cd_concurso/3418"
+        }
+    ],
+    "updated_at": "2025-10-22T12:00:00Z"
+}

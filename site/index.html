@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Concursos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>🎓 Concursos</h1>
+      <p id="last-updated"></p>
+    </header>
+
+    <section id="filters">
+      <input
+        type="text"
+        id="search"
+        placeholder="Procure pelo título ou universidade..."
+      />
+      <select id="status-filter">
+        <option value="">Status</option>
+        <option value="open">Aberto</option>
+        <option value="closing soon">Fecha em breve</option>
+        <option value="closed">Fechado</option>
+      </select>
+    </section>
+
+    <main id="items-list"></main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
