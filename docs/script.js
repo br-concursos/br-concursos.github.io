@@ -1,5 +1,5 @@
 async function loadItems() {
-  const res = await fetch("../data/concursos.json");
+  const res = await fetch("./data/concursos.json");
   const data = await res.json();
   renderItems(data.items);
   updateLastUpdated(data.updated_at);
